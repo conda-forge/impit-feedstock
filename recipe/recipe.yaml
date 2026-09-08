@@ -1,5 +1,5 @@
 context:
-  version: "0.14.0"
+  version: "0.14.1"
 
 package:
   name: impit
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/impit/impit-${{ version }}.tar.gz
-  sha256: 879c78886a0f8f03119a8a7015e7bc9e83cea1f0a4e0b914ce2747f1a9b85238
+  sha256: 85e771493ba9ce2131dcaf3b0ec7da6da8bd8aa5f6de1d71d400c93ba17a640b
 
 build:
-  number: 1
+  number: 0
   script:
     # reqwest's http3 feature (used by impit) is gated behind this cfg flag.
     # Setting it here works on all platforms, unlike an inline `env` prefix.
