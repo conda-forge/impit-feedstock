@@ -1,5 +1,5 @@
 context:
-  version: "0.15.0"
+  version: "0.15.1"
 
 package:
   name: impit
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/i/impit/impit-${{ version }}.tar.gz
-  sha256: ccf25d2568f64e500629ed9b0824b78d9cd7ec78ae003e14d49e82a752d1fae3
+  sha256: 29371666dd8a45f18e2eacc8825f142af1ecc32fe37dc7464586cf2a1fb23c85
 
 build:
   number: 0
