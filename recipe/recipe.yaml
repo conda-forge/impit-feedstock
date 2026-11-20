@@ -10,7 +10,7 @@ source:
   sha256: 58da7ea821383b428f04a30ca5d35950760f0b2ea77f0e4455424969218ca7eb
 
 build:
-  number: 0
+  number: 1
   script:
     # reqwest's http3 feature (used by impit) is gated behind this cfg flag.
     # Setting it here works on all platforms, unlike an inline `env` prefix.
